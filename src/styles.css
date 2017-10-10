@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+.help-block{
+    color: red;
+}
+
+.bg-layout{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.signin-signup-modal{
+    border: 1px solid #e2dfdf;
+    padding: 20px 20px 25px 20px;
+    box-shadow: 0 0 10px #aba7a7;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li a, .navbar-brand{ 
+    color: white !important;
+    font-weight: bold;
+ }
+
+.bg-grey{
+    background-color: #f5f0f0;
+}
+
+.m-b-10{
+    margin-bottom: 10px;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.navbar-inverse .navbar-toggle{
+    background-color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-sm {
+        background-color: whitesmoke;
+    }
+
+    .navbar-sm li a, .navbar-header a {
+        color: #000000 !important;
+    }
+
+    .navbar-nav {
+        margin: 0px -15px;
+    }
+
+    .navbar-header{
+        background-color: #ffffff;
+    }
+
+}
